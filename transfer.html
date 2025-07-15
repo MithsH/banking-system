@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transfer Amount</title>
+    <link rel="stylesheet" href="css/transfer.css"> <!-- Link your CSS file -->
+</head>
+<body>
+    <div class="form-container">
+        <h1>Transfer Amount</h1>
+        <form action="http://localhost:8080/transfer" method="post">
+            <label for="fromaccount">From Account (Bank ID)</label>
+            <input name="fromaccount" type="text" required>
+
+            <label for="toaccount">To Account (Bank ID)</label>
+            <input name="toaccount" type="text" required>
+
+            <label for="amount">Amount to Transfer</label>
+            <input name="amount" type="text" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

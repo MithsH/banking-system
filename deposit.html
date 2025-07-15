@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deposit Amount</title>
+    <link rel="stylesheet" href="css/depsoitcss.css"> <!-- Reuse the same CSS file -->
+</head>
+<body>
+    <div class="form-container">
+        <h1>Deposit Amount</h1>
+        <form action="http://localhost:8080/deposit" method="post">
+            <label for="BankID">Enter your Bank ID</label>
+            <input name="BankID" type="text" required><br><br>
+
+            <label for="amount">Enter Amount to Deposit</label>
+            <input name="amount" type="text" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

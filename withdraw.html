@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Withdraw Amount</title>
+    <link rel="stylesheet" href="css/withdraw.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="form-container">
+        <h1>Withdraw Amount</h1>
+        <form action="http://localhost:8080/withdraw" method="post">
+            <label for="BankID">Enter your Bank ID</label>
+            <input name="BankID" type="text" required>
+
+            <label for="amount">Enter Amount to Withdraw</label>
+            <input name="amount" type="text" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
